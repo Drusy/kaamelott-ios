@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F941D7DD239672B4000A274B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7DC239672B4000A274B /* AppDelegate.swift */; };
 		F941D7DF239672B4000A274B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7DE239672B4000A274B /* SceneDelegate.swift */; };
-		F941D7E1239672B4000A274B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7E0239672B4000A274B /* ContentView.swift */; };
+		F941D7E1239672B4000A274B /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7E0239672B4000A274B /* ContainerView.swift */; };
 		F941D7E3239672B6000A274B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F941D7E2239672B6000A274B /* Assets.xcassets */; };
 		F941D7E6239672B6000A274B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F941D7E5239672B6000A274B /* Preview Assets.xcassets */; };
 		F941D7E9239672B6000A274B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F941D7E7239672B6000A274B /* LaunchScreen.storyboard */; };
@@ -20,6 +20,15 @@
 		F941D80823967F0D000A274B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80723967F0D000A274B /* RxCocoa */; };
 		F941D80B23967FBA000A274B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80A23967FBA000A274B /* Realm */; };
 		F941D80D23967FBA000A274B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80C23967FBA000A274B /* RealmSwift */; };
+		F941D8102396A4B7000A274B /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80F2396A4B7000A274B /* QGrid */; };
+		F941D8162396A878000A274B /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = F941D8152396A878000A274B /* WaterfallGrid */; };
+		F985EF602396B81100EB6018 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF5F2396B81100EB6018 /* HomeView.swift */; };
+		F985EF622396B8C600EB6018 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF612396B8C600EB6018 /* CharactersView.swift */; };
+		F985EF642396B90F00EB6018 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF632396B90F00EB6018 /* BooksView.swift */; };
+		F985EF672396BBC800EB6018 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = F985EF662396BBC800EB6018 /* SwiftUICharts */; };
+		F985EF722396BF9D00EB6018 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF6E2396BF9D00EB6018 /* CharacterView.swift */; };
+		F985EF752396C01000EB6018 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF742396C01000EB6018 /* Sound.swift */; };
+		F985EF782396C27F00EB6018 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF772396C27F00EB6018 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 		F941D7D9239672B4000A274B /* Kaamelott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaamelott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F941D7DC239672B4000A274B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F941D7DE239672B4000A274B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F941D7E0239672B4000A274B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F941D7E0239672B4000A274B /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		F941D7E2239672B6000A274B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F941D7E5239672B6000A274B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F941D7E8239672B6000A274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +53,12 @@
 		F941D7EF239672B6000A274B /* KaamelottSoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaamelottSoundboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F941D7F3239672B6000A274B /* KaamelottSoundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaamelottSoundboardTests.swift; sourceTree = "<group>"; };
 		F941D7F5239672B6000A274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F985EF5F2396B81100EB6018 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F985EF612396B8C600EB6018 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		F985EF632396B90F00EB6018 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		F985EF6E2396BF9D00EB6018 /* CharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		F985EF742396C01000EB6018 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		F985EF772396C27F00EB6018 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +69,12 @@
 				F941D80D23967FBA000A274B /* RealmSwift in Frameworks */,
 				F941D80623967F0D000A274B /* RxSwift in Frameworks */,
 				F941D80323967C1C000A274B /* ObjectMapper in Frameworks */,
+				F941D8162396A878000A274B /* WaterfallGrid in Frameworks */,
+				F941D8102396A4B7000A274B /* QGrid in Frameworks */,
 				F941D80823967F0D000A274B /* RxCocoa in Frameworks */,
 				F941D80023967B9B000A274B /* Alamofire in Frameworks */,
 				F941D80B23967FBA000A274B /* Realm in Frameworks */,
+				F985EF672396BBC800EB6018 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,12 +109,9 @@
 		F941D7DB239672B4000A274B /* KaamelottSoundboard */ = {
 			isa = PBXGroup;
 			children = (
-				F941D7DC239672B4000A274B /* AppDelegate.swift */,
-				F941D7DE239672B4000A274B /* SceneDelegate.swift */,
-				F941D7E0239672B4000A274B /* ContentView.swift */,
-				F941D7E2239672B6000A274B /* Assets.xcassets */,
-				F941D7E7239672B6000A274B /* LaunchScreen.storyboard */,
-				F941D7EA239672B6000A274B /* Info.plist */,
+				F941D8192396AA1E000A274B /* Classes */,
+				F941D8172396A9DE000A274B /* Ressources */,
+				F941D8182396A9EB000A274B /* Supporting */,
 				F941D7E4239672B6000A274B /* Preview Content */,
 			);
 			path = KaamelottSoundboard;
@@ -117,6 +132,79 @@
 				F941D7F5239672B6000A274B /* Info.plist */,
 			);
 			path = KaamelottSoundboardTests;
+			sourceTree = "<group>";
+		};
+		F941D8172396A9DE000A274B /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F941D7E2239672B6000A274B /* Assets.xcassets */,
+				F941D7E7239672B6000A274B /* LaunchScreen.storyboard */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		F941D8182396A9EB000A274B /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F941D7EA239672B6000A274B /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		F941D8192396AA1E000A274B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F985EF762396C12300EB6018 /* New Group */,
+				F941D7DC239672B4000A274B /* AppDelegate.swift */,
+				F941D7DE239672B4000A274B /* SceneDelegate.swift */,
+				F941D7E0239672B4000A274B /* ContainerView.swift */,
+				F985EF682396BF8800EB6018 /* Home */,
+				F985EF692396BF8E00EB6018 /* Characters */,
+				F985EF6A2396BF9500EB6018 /* Books */,
+				F985EF732396C00500EB6018 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F985EF682396BF8800EB6018 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F985EF5F2396B81100EB6018 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F985EF692396BF8E00EB6018 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				F985EF6E2396BF9D00EB6018 /* CharacterView.swift */,
+				F985EF612396B8C600EB6018 /* CharactersView.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		F985EF6A2396BF9500EB6018 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				F985EF632396B90F00EB6018 /* BooksView.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		F985EF732396C00500EB6018 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F985EF742396C01000EB6018 /* Sound.swift */,
+				F985EF772396C27F00EB6018 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F985EF762396C12300EB6018 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +230,9 @@
 				F941D80723967F0D000A274B /* RxCocoa */,
 				F941D80A23967FBA000A274B /* Realm */,
 				F941D80C23967FBA000A274B /* RealmSwift */,
+				F941D80F2396A4B7000A274B /* QGrid */,
+				F941D8152396A878000A274B /* WaterfallGrid */,
+				F985EF662396BBC800EB6018 /* SwiftUICharts */,
 			);
 			productName = "Kaamelott Soundboard";
 			productReference = F941D7D9239672B4000A274B /* Kaamelott.app */;
@@ -198,6 +289,9 @@
 				F941D80123967C1C000A274B /* XCRemoteSwiftPackageReference "ObjectMapper" */,
 				F941D80423967F0D000A274B /* XCRemoteSwiftPackageReference "RxSwift" */,
 				F941D80923967FBA000A274B /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				F941D80E2396A4B7000A274B /* XCRemoteSwiftPackageReference "QGrid" */,
+				F941D8142396A878000A274B /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+				F985EF652396BBC800EB6018 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = F941D7DA239672B4000A274B /* Products */;
 			projectDirPath = "";
@@ -235,8 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F941D7DD239672B4000A274B /* AppDelegate.swift in Sources */,
+				F985EF752396C01000EB6018 /* Sound.swift in Sources */,
+				F985EF642396B90F00EB6018 /* BooksView.swift in Sources */,
+				F985EF782396C27F00EB6018 /* Character.swift in Sources */,
+				F985EF622396B8C600EB6018 /* CharactersView.swift in Sources */,
+				F985EF602396B81100EB6018 /* HomeView.swift in Sources */,
+				F985EF722396BF9D00EB6018 /* CharacterView.swift in Sources */,
 				F941D7DF239672B4000A274B /* SceneDelegate.swift in Sources */,
-				F941D7E1239672B4000A274B /* ContentView.swift in Sources */,
+				F941D7E1239672B4000A274B /* ContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH6KR5PAQ7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/KaamelottSoundboard/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/KaamelottSoundboard/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,7 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH6KR5PAQ7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/KaamelottSoundboard/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/KaamelottSoundboard/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,6 +631,30 @@
 				minimumVersion = 4.1.1;
 			};
 		};
+		F941D80E2396A4B7000A274B /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		F941D8142396A878000A274B /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		F985EF652396BBC800EB6018 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -563,6 +687,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F941D80923967FBA000A274B /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
+		};
+		F941D80F2396A4B7000A274B /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D80E2396A4B7000A274B /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+		F941D8152396A878000A274B /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D8142396A878000A274B /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+		F985EF662396BBC800EB6018 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F985EF652396BBC800EB6018 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

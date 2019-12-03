@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F941D7D8239672B4000A274B"
-               BuildableName = "KaamelottSoundboard.app"
+               BuildableName = "Kaamelott.app"
                BlueprintName = "KaamelottSoundboard"
                ReferencedContainer = "container:KaamelottSoundboard.xcodeproj">
             </BuildableReference>
@@ -55,7 +55,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F941D7D8239672B4000A274B"
-            BuildableName = "KaamelottSoundboard.app"
+            BuildableName = "Kaamelott.app"
             BlueprintName = "KaamelottSoundboard"
             ReferencedContainer = "container:KaamelottSoundboard.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F941D7D8239672B4000A274B"
-            BuildableName = "KaamelottSoundboard.app"
+            BuildableName = "Kaamelott.app"
             BlueprintName = "KaamelottSoundboard"
             ReferencedContainer = "container:KaamelottSoundboard.xcodeproj">
          </BuildableReference>
