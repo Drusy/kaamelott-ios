@@ -11,7 +11,40 @@ import WaterfallGrid
 
 struct CharactersView: View {
     
+    enum Mode {
+        case list
+        case grid
+        
+        mutating func switchMode() {
+            switch self {
+            case .list:
+                self = .grid
+            case .grid:
+                self = .list
+            }
+        }
+        
+        func switchView() -> some View {
+            switch self {
+            case .list:
+                return Image(systemName: "rectangle.3.offgrid")
+            case .grid:
+                return Image(systemName: "list.dash")
+            }
+        }
+        
+        func columns() -> Int {
+            switch self {
+            case .list:
+                return 1
+            case .grid:
+                return 2
+            }
+        }
+    }
+    
     @State private var characters: [Character] = Character.allCases
+    @State private var mode: Mode = .grid
     
     var body: some View {
         NavigationView {
@@ -19,10 +52,17 @@ struct CharactersView: View {
                 CharacterView(character: character)
             }
             .gridStyle(
+                columns: mode.columns(),
                 spacing: 8,
                 padding: EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16)
             )
             .navigationBarTitle("Personnages")
+            .navigationBarItems(trailing:
+                Button(
+                    action: { self.mode.switchMode() },
+                    label: { self.mode.switchView() }
+                )
+            )
         }
     }
 }

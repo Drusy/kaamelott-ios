@@ -35,6 +35,14 @@ struct ContainerView: View {
                     }
                 }
                 .tag(2)
+            CaptionsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "captions.bubble\(selection == 3 ? ".fill" : "")")
+                        Text("Citations")
+                    }
+                }
+                .tag(3)
         }
         .edgesIgnoringSafeArea(.top)
         .accentColor(.orange)
