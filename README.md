@@ -8,6 +8,8 @@ Wiki iOS app base on the French serie Kaamelott
 
 API source https://github.com/2ec0b4/kaamelott-soundboard
 
+Soundboard website https://kaamelott-soundboard.2ec0b4.fr/
+
 JSON data https://github.com/2ec0b4/kaamelott-soundboard/blob/master/sounds/sounds.json
 
 ### Citations
