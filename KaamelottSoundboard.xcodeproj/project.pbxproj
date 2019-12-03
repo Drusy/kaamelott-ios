@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F941D7DD239672B4000A274B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7DC239672B4000A274B /* AppDelegate.swift */; };
+		F941D7DF239672B4000A274B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7DE239672B4000A274B /* SceneDelegate.swift */; };
+		F941D7E1239672B4000A274B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7E0239672B4000A274B /* ContentView.swift */; };
+		F941D7E3239672B6000A274B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F941D7E2239672B6000A274B /* Assets.xcassets */; };
+		F941D7E6239672B6000A274B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F941D7E5239672B6000A274B /* Preview Assets.xcassets */; };
+		F941D7E9239672B6000A274B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F941D7E7239672B6000A274B /* LaunchScreen.storyboard */; };
+		F941D7F4239672B6000A274B /* KaamelottSoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F941D7F3239672B6000A274B /* KaamelottSoundboardTests.swift */; };
+		F941D80023967B9B000A274B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F941D7FF23967B9B000A274B /* Alamofire */; };
+		F941D80323967C1C000A274B /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80223967C1C000A274B /* ObjectMapper */; };
+		F941D80623967F0D000A274B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80523967F0D000A274B /* RxSwift */; };
+		F941D80823967F0D000A274B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80723967F0D000A274B /* RxCocoa */; };
+		F941D80B23967FBA000A274B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80A23967FBA000A274B /* Realm */; };
+		F941D80D23967FBA000A274B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F941D80C23967FBA000A274B /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F941D7F0239672B6000A274B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F941D7D1239672B4000A274B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F941D7D8239672B4000A274B;
+			remoteInfo = "Kaamelott Soundboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F941D7D9239672B4000A274B /* Kaamelott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaamelott.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F941D7DC239672B4000A274B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F941D7DE239672B4000A274B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F941D7E0239672B4000A274B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F941D7E2239672B6000A274B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F941D7E5239672B6000A274B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F941D7E8239672B6000A274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F941D7EA239672B6000A274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F941D7EF239672B6000A274B /* KaamelottSoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaamelottSoundboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F941D7F3239672B6000A274B /* KaamelottSoundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaamelottSoundboardTests.swift; sourceTree = "<group>"; };
+		F941D7F5239672B6000A274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F941D7D6239672B4000A274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F941D80D23967FBA000A274B /* RealmSwift in Frameworks */,
+				F941D80623967F0D000A274B /* RxSwift in Frameworks */,
+				F941D80323967C1C000A274B /* ObjectMapper in Frameworks */,
+				F941D80823967F0D000A274B /* RxCocoa in Frameworks */,
+				F941D80023967B9B000A274B /* Alamofire in Frameworks */,
+				F941D80B23967FBA000A274B /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F941D7EC239672B6000A274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F941D7D0239672B4000A274B = {
+			isa = PBXGroup;
+			children = (
+				F941D7DB239672B4000A274B /* KaamelottSoundboard */,
+				F941D7F2239672B6000A274B /* KaamelottSoundboardTests */,
+				F941D7DA239672B4000A274B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F941D7DA239672B4000A274B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F941D7D9239672B4000A274B /* Kaamelott.app */,
+				F941D7EF239672B6000A274B /* KaamelottSoundboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F941D7DB239672B4000A274B /* KaamelottSoundboard */ = {
+			isa = PBXGroup;
+			children = (
+				F941D7DC239672B4000A274B /* AppDelegate.swift */,
+				F941D7DE239672B4000A274B /* SceneDelegate.swift */,
+				F941D7E0239672B4000A274B /* ContentView.swift */,
+				F941D7E2239672B6000A274B /* Assets.xcassets */,
+				F941D7E7239672B6000A274B /* LaunchScreen.storyboard */,
+				F941D7EA239672B6000A274B /* Info.plist */,
+				F941D7E4239672B6000A274B /* Preview Content */,
+			);
+			path = KaamelottSoundboard;
+			sourceTree = "<group>";
+		};
+		F941D7E4239672B6000A274B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F941D7E5239672B6000A274B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F941D7F2239672B6000A274B /* KaamelottSoundboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F941D7F3239672B6000A274B /* KaamelottSoundboardTests.swift */,
+				F941D7F5239672B6000A274B /* Info.plist */,
+			);
+			path = KaamelottSoundboardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F941D7D8239672B4000A274B /* KaamelottSoundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F941D7F8239672B6000A274B /* Build configuration list for PBXNativeTarget "KaamelottSoundboard" */;
+			buildPhases = (
+				F941D7D5239672B4000A274B /* Sources */,
+				F941D7D6239672B4000A274B /* Frameworks */,
+				F941D7D7239672B4000A274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaamelottSoundboard;
+			packageProductDependencies = (
+				F941D7FF23967B9B000A274B /* Alamofire */,
+				F941D80223967C1C000A274B /* ObjectMapper */,
+				F941D80523967F0D000A274B /* RxSwift */,
+				F941D80723967F0D000A274B /* RxCocoa */,
+				F941D80A23967FBA000A274B /* Realm */,
+				F941D80C23967FBA000A274B /* RealmSwift */,
+			);
+			productName = "Kaamelott Soundboard";
+			productReference = F941D7D9239672B4000A274B /* Kaamelott.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F941D7EE239672B6000A274B /* KaamelottSoundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F941D7FB239672B6000A274B /* Build configuration list for PBXNativeTarget "KaamelottSoundboardTests" */;
+			buildPhases = (
+				F941D7EB239672B6000A274B /* Sources */,
+				F941D7EC239672B6000A274B /* Frameworks */,
+				F941D7ED239672B6000A274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F941D7F1239672B6000A274B /* PBXTargetDependency */,
+			);
+			name = KaamelottSoundboardTests;
+			productName = "Kaamelott SoundboardTests";
+			productReference = F941D7EF239672B6000A274B /* KaamelottSoundboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F941D7D1239672B4000A274B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Openium;
+				TargetAttributes = {
+					F941D7D8239672B4000A274B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F941D7EE239672B6000A274B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F941D7D8239672B4000A274B;
+					};
+				};
+			};
+			buildConfigurationList = F941D7D4239672B4000A274B /* Build configuration list for PBXProject "KaamelottSoundboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F941D7D0239672B4000A274B;
+			packageReferences = (
+				F941D7FE23967B9B000A274B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F941D80123967C1C000A274B /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				F941D80423967F0D000A274B /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F941D80923967FBA000A274B /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = F941D7DA239672B4000A274B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F941D7D8239672B4000A274B /* KaamelottSoundboard */,
+				F941D7EE239672B6000A274B /* KaamelottSoundboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F941D7D7239672B4000A274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F941D7E9239672B6000A274B /* LaunchScreen.storyboard in Resources */,
+				F941D7E6239672B6000A274B /* Preview Assets.xcassets in Resources */,
+				F941D7E3239672B6000A274B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F941D7ED239672B6000A274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F941D7D5239672B4000A274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F941D7DD239672B4000A274B /* AppDelegate.swift in Sources */,
+				F941D7DF239672B4000A274B /* SceneDelegate.swift in Sources */,
+				F941D7E1239672B4000A274B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F941D7EB239672B6000A274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F941D7F4239672B6000A274B /* KaamelottSoundboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F941D7F1239672B6000A274B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F941D7D8239672B4000A274B /* KaamelottSoundboard */;
+			targetProxy = F941D7F0239672B6000A274B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F941D7E7239672B6000A274B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F941D7E8239672B6000A274B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F941D7F6239672B6000A274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F941D7F7239672B6000A274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F941D7F9239672B6000A274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH6KR5PAQ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KaamelottSoundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.openium.kaasb;
+				PRODUCT_NAME = Kaamelott;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F941D7FA239672B6000A274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH6KR5PAQ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KaamelottSoundboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.openium.kaasb;
+				PRODUCT_NAME = Kaamelott;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F941D7FC239672B6000A274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH6KR5PAQ7;
+				INFOPLIST_FILE = KaamelottSoundboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.openium.Kaamelott-SoundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaamelott.app/Kaamelott";
+			};
+			name = Debug;
+		};
+		F941D7FD239672B6000A274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH6KR5PAQ7;
+				INFOPLIST_FILE = KaamelottSoundboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.openium.Kaamelott-SoundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaamelott.app/Kaamelott";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F941D7D4239672B4000A274B /* Build configuration list for PBXProject "KaamelottSoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F941D7F6239672B6000A274B /* Debug */,
+				F941D7F7239672B6000A274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F941D7F8239672B6000A274B /* Build configuration list for PBXNativeTarget "KaamelottSoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F941D7F9239672B6000A274B /* Debug */,
+				F941D7FA239672B6000A274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F941D7FB239672B6000A274B /* Build configuration list for PBXNativeTarget "KaamelottSoundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F941D7FC239672B6000A274B /* Debug */,
+				F941D7FD239672B6000A274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F941D7FE23967B9B000A274B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		F941D80123967C1C000A274B /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.1;
+			};
+		};
+		F941D80423967F0D000A274B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		F941D80923967FBA000A274B /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F941D7FF23967B9B000A274B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D7FE23967B9B000A274B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F941D80223967C1C000A274B /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D80123967C1C000A274B /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		F941D80523967F0D000A274B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D80423967F0D000A274B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F941D80723967F0D000A274B /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D80423967F0D000A274B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F941D80A23967FBA000A274B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D80923967FBA000A274B /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		F941D80C23967FBA000A274B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F941D80923967FBA000A274B /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F941D7D1239672B4000A274B /* Project object */;
+}
