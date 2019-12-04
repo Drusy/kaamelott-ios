@@ -28,6 +28,9 @@
 		F985EF782396C27F00EB6018 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF772396C27F00EB6018 /* Character.swift */; };
 		F985EF7B239709F900EB6018 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = F985EF7A239709F900EB6018 /* SFSafeSymbols */; };
 		F985EF7E23970A5C00EB6018 /* CaptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF7D23970A5C00EB6018 /* CaptionsView.swift */; };
+		F985EF80239718CB00EB6018 /* RandomCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF7F239718CB00EB6018 /* RandomCaptionView.swift */; };
+		F985EF8323971E3900EB6018 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF8223971E3900EB6018 /* ActivityIndicatorView.swift */; };
+		F985EF8523971EBF00EB6018 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F985EF8423971EBF00EB6018 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		F985EF742396C01000EB6018 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		F985EF772396C27F00EB6018 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		F985EF7D23970A5C00EB6018 /* CaptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsView.swift; sourceTree = "<group>"; };
+		F985EF7F239718CB00EB6018 /* RandomCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCaptionView.swift; sourceTree = "<group>"; };
+		F985EF8223971E3900EB6018 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		F985EF8423971EBF00EB6018 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +158,6 @@
 		F941D8192396AA1E000A274B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F985EF762396C12300EB6018 /* New Group */,
 				F941D7DC239672B4000A274B /* AppDelegate.swift */,
 				F941D7DE239672B4000A274B /* SceneDelegate.swift */,
 				F941D7E0239672B4000A274B /* ContainerView.swift */,
@@ -160,6 +165,7 @@
 				F985EF692396BF8E00EB6018 /* Characters */,
 				F985EF6A2396BF9500EB6018 /* Books */,
 				F985EF7C23970A3E00EB6018 /* Captions */,
+				F985EF8123971E2600EB6018 /* Components */,
 				F985EF732396C00500EB6018 /* Model */,
 			);
 			path = Classes;
@@ -199,19 +205,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F985EF762396C12300EB6018 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		F985EF7C23970A3E00EB6018 /* Captions */ = {
 			isa = PBXGroup;
 			children = (
+				F985EF7F239718CB00EB6018 /* RandomCaptionView.swift */,
 				F985EF7D23970A5C00EB6018 /* CaptionsView.swift */,
 			);
 			path = Captions;
+			sourceTree = "<group>";
+		};
+		F985EF8123971E2600EB6018 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F985EF8223971E3900EB6018 /* ActivityIndicatorView.swift */,
+				F985EF8423971EBF00EB6018 /* LoadingView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,12 +344,15 @@
 				F941D7DD239672B4000A274B /* AppDelegate.swift in Sources */,
 				F985EF752396C01000EB6018 /* Sound.swift in Sources */,
 				F985EF642396B90F00EB6018 /* BooksView.swift in Sources */,
+				F985EF8323971E3900EB6018 /* ActivityIndicatorView.swift in Sources */,
 				F985EF782396C27F00EB6018 /* Character.swift in Sources */,
+				F985EF80239718CB00EB6018 /* RandomCaptionView.swift in Sources */,
 				F985EF622396B8C600EB6018 /* CharactersView.swift in Sources */,
 				F985EF602396B81100EB6018 /* HomeView.swift in Sources */,
 				F985EF722396BF9D00EB6018 /* CharacterView.swift in Sources */,
 				F941D7DF239672B4000A274B /* SceneDelegate.swift in Sources */,
 				F941D7E1239672B4000A274B /* ContainerView.swift in Sources */,
+				F985EF8523971EBF00EB6018 /* LoadingView.swift in Sources */,
 				F985EF7E23970A5C00EB6018 /* CaptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

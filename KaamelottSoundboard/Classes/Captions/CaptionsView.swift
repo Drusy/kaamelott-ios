@@ -11,11 +11,11 @@ import SwiftUI
 struct CaptionsView: View {
     var body: some View {
         NavigationView {
-            VStack {
-                Text("Captions")
-                    .font(.title)
-                Text("Browse the captions")
+            VStack(alignment: .leading) {
+                LoadingRandomCaptionView()
+                Spacer()
             }
+            .padding()
             .navigationBarTitle("Citations")
         }
     }
